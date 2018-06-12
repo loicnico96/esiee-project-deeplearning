@@ -1,0 +1,31 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\NNetwork\doc\website\download\doc\msdn\Documentation.chm
+
+HHC4006: Warning: The file "NeuralNetwork.BackPropagationLearningAlgorithm.Alpha.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.BackPropagationLearningAlgorithm.Gamma.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.GaussianActivationFunction.Mu.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.GaussianActivationFunction.Sigma.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Layer.Output.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.LearningAlgorithm.Error.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.LinearActivationFunction.A.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.A.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.F.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.Last_Threshold.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.Last_W.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.Threshold.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.Neuron.WS.html" is already listed in the [FILES] section of the project file.
+HHC4006: Warning: The file "NeuralNetwork.SigmoidActivationFunction.Beta.html" is already listed in the [FILES] section of the project file.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+HHC3000: Warning: Invalid syntax: A <PARAM> tag appears outside of an <OBJECT> tag.
+
+Compile time: 0 minutes, 3 seconds
+211	Topics
+1,481	Local links
+0	Internet links
+0	Graphics
+
+
+Created d:\NNetwork\doc\website\download\doc\msdn\Documentation.chm, 91,942 bytes
+Compression decreased file by 397,330 bytes.

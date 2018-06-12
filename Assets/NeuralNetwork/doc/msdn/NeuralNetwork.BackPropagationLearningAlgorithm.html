@@ -1,0 +1,26 @@
+﻿<html dir="LTR"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"><title>BackPropagationLearningAlgorithm Class</title><link rel="stylesheet" type="text/css" href="MSDN.css"></head><body><div id="banner"><div id="header">Neural Network Library</div><h1>BackPropagationLearningAlgorithm Class</h1></div><div id="content"><p class="i1">
+            Implementation of stockastic gradient backpropagation
+            learning algorithm
+            </p><p class="i1">For a list of all members of this type, see <a href="NeuralNetwork.BackPropagationLearningAlgorithmMembers.html">BackPropagationLearningAlgorithm Members</a>.</p><p class="i1"><a href="ms-help://MS.NETFrameworkSDK/cpref/html/frlrfSystemObjectClassTopic.htm">System.Object</a><br>   <a href="NeuralNetwork.LearningAlgorithm.html">LearningAlgorithm</a><br>      <b>BackPropagationLearningAlgorithm</b></p><pre class="syntax"><span class="lang">[Visual Basic]</span><br>Public Class BackPropagationLearningAlgorithm<br>   Inherits LearningAlgorithm</pre><pre class="syntax"><span class="lang">[C#]</span><br>public class BackPropagationLearningAlgorithm : LearningAlgorithm</pre><h4>Remarks</h4><p class="i1"><pre class="code">
+            
+                                 PROPAGATION WAY IN NN
+                               -------------------------&gt;
+            
+                   o ----- Sj = f(WSj) ----&gt; o ----- Si = f(WSi) ----&gt; o
+                 Neuron j                Neuron i                   Neuron k
+               (layer L-1)               (layer L)                 (layer L+1)
+            
+            For the neuron i :
+            -------------------
+            W[i,j](n+1) = W[i,j](n) + alpha * Ai * Sj + gamma * ( W[i,j](n) - W[i,j](n-1) )
+            T[i](n+1) = T[i](n) - alpha * Ai + gamma * ( T[i](n) - T[i](n-1) )
+            
+            	with :
+            			Ai = f'(WSi) * (expected_output_i - si) for output layer
+            			Ai = f'(WSi) * SUM( Ak * W[k,i] )       for others
+            
+            </pre>
+            NOTE : This is stockastic version of the algorithm because the error
+            is back-propaged after every learning case. There is another version
+            of this algorithm which works on global error.
+            </p><h4>Requirements</h4><p class="i1"><b>Namespace: </b><a href="NeuralNetwork.html">NeuralNetwork Namespace</a></p><p class="i1"><b>Assembly: </b>NeuralNetwork.dll</p><h4>See Also</h4><p class="i1"><a href="NeuralNetwork.BackPropagationLearningAlgorithmMembers.html">BackPropagationLearningAlgorithm Members</a> | <a href="NeuralNetwork.html">NeuralNetwork Namespace</a></p></div></body></html>
